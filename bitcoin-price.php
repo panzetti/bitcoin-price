@@ -1,8 +1,7 @@
 <?php
-function getPrice($url) {
-$decode = file_get_contents($url);
-return json_decode($decode, true);
-}
+
+require_once('functions.php');
+
 $btcUSD = getPrice('https://btc-e.com/api/2/btc_usd/ticker');
 $btcBTCE = $btcUSD["ticker"]["last"];
 
