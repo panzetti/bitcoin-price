@@ -15,11 +15,14 @@ require_once('config.php');
 ?>
 <body bgcolor=white>
 	<div id="result">
+		<b>Bitcoin Price - BTC-e</b> <br />
+		<?= $btcBTCE; ?><br /> <br />
+		
 		<b>Bitcoin Price - Coindesk</b> <br />
 		<?= $btcCOINDESK; ?><br /><br />
 
-		<b>Bitcoin Price - BTC-e</b> <br />
-		<?= $btcBTCE; ?><br /> <br />
+		<b>Bitcoin Price - BitcoinAverage</b> <br />
+		<?= $btcAVERAGE; ?><br /> <br />
 	</div>
 </body>
 </html>
