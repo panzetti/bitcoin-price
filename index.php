@@ -6,6 +6,7 @@
 		 <script>
 			function autoRefresh_div() {
 				$("#result").load("index.php");// a function which will load data from other file after x seconds
+											
 		}
  				setInterval('autoRefresh_div()', 5000); // refresh div after 5 secs
          </script>
@@ -26,6 +27,10 @@ require_once('config.php');
 		
 		<b>Bitcoin Price - BLOCKCHAIN</b> <br />
 		$ <?= $btcBLOCKCHAINUSD; ?> - R$ <?= $btcBLOCKCHAINBRL; ?><br /> <br />
+		
+		<b>Bitcoin Price - BITSTAMP</b> <br />
+		$ <?= $btcBITSTAMP; ?><br /> <br />
+		
 	</div>
 </body>
 </html>
