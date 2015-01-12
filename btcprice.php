@@ -1,7 +1,6 @@
 <?php
 require_once('config.php');
 ?>
-	<div id="result">
 		<b>BTC-e - btc-e.com</b> <br />
 		$ <?= $btcBTCE; ?><br /> <br />
 		
@@ -16,5 +15,3 @@ require_once('config.php');
 		
 		<b>Bitstamp - bitstamp.net</b> <br />
 		$ <?= $btcBITSTAMP; ?><br /> <br />
-		
-	</div>
