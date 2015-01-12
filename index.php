@@ -5,7 +5,11 @@
 		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		 <script>
 			function autoRefresh_div() {
-				$("body").load("bitprice.php");// a function which will load data from other file after x seconds
+				$("body").fadeOut(500,"linear",function(e){
+						$("body").fadeIn(500,"linear",function(e){
+							$("body").load("bitprice.php");  // a function which will load data from other file after x seconds
+						});						
+				});
 			}
  			setInterval('autoRefresh_div()', 6000); // refresh div after 6 secs
 		</script>
