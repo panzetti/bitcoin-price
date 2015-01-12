@@ -2,19 +2,19 @@
 require_once('config.php');
 ?>
 	<div id="result">
-		<b>Bitcoin Price - BTC-e</b> <br />
+		<b>BTC-e - btc-e.com</b> <br />
 		$ <?= $btcBTCE; ?><br /> <br />
 		
-		<b>Bitcoin Price - Coindesk</b> <br />
+		<b>Coindesk - coindesk.com</b> <br />
 		$ <?= $btcCOINDESK; ?><br /><br />
 
-		<b>Bitcoin Price - BitcoinAverage</b> <br />
+		<b>BitcoinAverage - bitcoinaverage.com</b> <br />
 		$ <?= $btcAVERAGE; ?><br /> <br />
 		
-		<b>Bitcoin Price - BLOCKCHAIN</b> <br />
+		<b>Blockchain - blockchain.info</b> <br />
 		$ <?= $btcBLOCKCHAINUSD; ?> - R$ <?= $btcBLOCKCHAINBRL; ?><br /> <br />
 		
-		<b>Bitcoin Price - BITSTAMP</b> <br />
+		<b>Bitstamp - bitstamp.net</b> <br />
 		$ <?= $btcBITSTAMP; ?><br /> <br />
 		
 	</div>
