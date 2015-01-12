@@ -1,17 +1,19 @@
 <?php
 require_once('config.php');
 ?>
-		<b>BTC-e - btc-e.com</b> <br />
-		$ <?= $btcBTCE; ?><br /> <br />
+		<center>
+			<h2>BTC-e - btc-e.com</h2> <br />
+			$ <?= $btcBTCE; ?><br /> <br />
 		
-		<b>Coindesk - coindesk.com</b> <br />
-		$ <?= $btcCOINDESK; ?><br /><br />
+			<h2>Coindesk - coindesk.com</h2> <br />
+			$ <?= $btcCOINDESK; ?><br /><br />
 
-		<b>BitcoinAverage - bitcoinaverage.com</b> <br />
-		$ <?= $btcAVERAGE; ?><br /> <br />
+			<h2>BitcoinAverage - bitcoinaverage.com</h2> <br />
+			$ <?= $btcAVERAGE; ?><br /> <br />
 		
-		<b>Blockchain - blockchain.info</b> <br />
-		$ <?= $btcBLOCKCHAINUSD; ?> - R$ <?= $btcBLOCKCHAINBRL; ?><br /> <br />
+			<h2>Blockchain - blockchain.info</h2> <br />
+			$ <?= $btcBLOCKCHAINUSD; ?> - R$ <?= $btcBLOCKCHAINBRL; ?><br /> <br />
 		
-		<b>Bitstamp - bitstamp.net</b> <br />
-		$ <?= $btcBITSTAMP; ?><br /> <br />
+			<h2>Bitstamp - bitstamp.net</h2> <br />
+			$ <?= $btcBITSTAMP; ?><br /> <br />	
+		</center>
