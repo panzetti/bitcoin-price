@@ -8,7 +8,7 @@
 				$("#result").load("index.php");// a function which will load data from other file after x seconds
 											
 		}
- 				setInterval('autoRefresh_div()', 5000); // refresh div after 5 secs
+ 				setInterval('autoRefresh_div()', 10000); // refresh div after 10 secs
          </script>
 	</head>
 <?php
