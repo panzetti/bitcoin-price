@@ -7,7 +7,7 @@
 			function autoRefresh_div() {
 				$("body").fadeOut(500,"linear",function(e){
 						$("body").fadeIn(500,"linear",function(e){
-							$("body").load("bitprice.php");  // a function which will load data from other file after x seconds
+							$("body").load("btcprice.php");  // a function which will load data from other file after x seconds
 						});						
 				});
 			}
@@ -16,6 +16,6 @@
 	</head>
 	
 <body bgcolor=white>
-	<?php include_once("bitprice.php") ?>
+	<?php include_once("btcprice.php") ?>
 </body>
 </html>
